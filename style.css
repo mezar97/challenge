@@ -1,0 +1,119 @@
+body {
+
+}
+
+*{
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.top{
+    width: 97vw;
+    height: 110vh;
+    background-image: url("top1.jpg");
+    background-size: cover;
+}
+.top h1{
+    text-align: center;
+}
+
+.text1{
+    margin: 16%;
+}
+.text1 li {
+    list-style: none;
+    display: inline-block;
+    
+}
+.text1 ul {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+.form{
+    display: block;
+    padding: 10px;
+}
+.one{
+    padding-right: 81px;
+}
+.two{
+    padding-right: 54px;
+}
+.three{
+    padding-right: 89px;
+}
+.four{
+    padding-right: 123px;
+}
+.five{
+    padding-right: 22px;
+}
+.sex{
+    padding-right: 114px;
+}
+.seven {
+    padding-right: 92px;
+}
+.eghit{
+    padding-right: 70px;
+}
+.dat{
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.knap {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 80px;
+    padding: 10px;
+    overflow: hidden;
+    border: none;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    font: normal 16px/1 "Times New Roman", Times, serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: -webkit-linear-gradient(-56.30993247402023deg, rgba(81,71,71,1) 0, rgba(135,147,66,1) 49%, rgba(86,78,78,1) 100%);
+    background: -moz-linear-gradient(146.30993247402023deg, rgba(81,71,71,1) 0, rgba(135,147,66,1) 49%, rgba(86,78,78,1) 100%);
+    background: linear-gradient(146.30993247402023deg, rgba(81,71,71,1) 0, rgba(135,147,66,1) 49%, rgba(86,78,78,1) 100%);
+    background-position: 50% 50%;
+    -webkit-background-origin: padding-box;
+    background-origin: padding-box;
+    -webkit-background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-size: auto auto;
+    background-size: auto auto;
+  
+  }
+
+
+.knap:hover{
+    transform: translateY(-10px) scale(1.2);
+    transition: all .5s;
+}
+
+.view {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    width: 550px;
+    padding: 65px;
+    opacity: 0.61;
+    overflow: hidden;
+    border: none;
+    border-radius: 35px; 
+    font: normal 16px/1 "Times New Roman", Times, serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: #0199d9;
+    margin: 0 auto;
+  }
